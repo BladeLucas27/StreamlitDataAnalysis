@@ -16,7 +16,7 @@ st.subheader('Introduction')
 st.write('In the competitive landscape of retail, understanding customer behavior and purchasing patterns is essential for driving business growth and operational efficiency. The ability to segment customers effectively and identify product relationships can significantly enhance inventory management, marketing strategies, and overall profitability. This analysis examines the Superstore Sales Dataset, which contains comprehensive transactional data from a retail superstore, including order information, product categories, customer segments, sales figures, and geographic details.')
 
 st.subheader('Purpose of Research')
-st.markdown('<h6 style="text-align: center; font-style: italic;">How can we identify distinct customer purchasing patterns and product associations to optimize inventory management and targeted marketing strategies?</h6>', unsafe_allow_html=True)
+st.markdown('<br><h6 style="text-align: center; font-style: italic;">How can we identify distinct customer purchasing patterns and product associations to optimize inventory management and targeted marketing strategies?</h6><br>', unsafe_allow_html=True)
 st.write('This research question seeks to uncover hidden patterns in customer behavior and product relationships that can inform business decisions around product placement, promotional bundling, and customer segmentation.')
 
 st.subheader('About Dataset')
@@ -42,10 +42,10 @@ def show_member(image_path, name):
         st.write(name)
 
 with col1:
-    show_member("kp.jpg", 'Kelvin Pehrson Kierulf')
+    show_member("assets/kp.jpg", 'Kelvin Pehrson Kierulf')
 with col2:
-    show_member("zillion.jpg", 'John Zillion Reyes')
+    show_member("assets/zillion.jpg", 'John Zillion Reyes')
 with col3:
-    show_member("gil.jpg", 'Gil Florenz Sastre')
+    show_member("assets/gil.jpg", 'Gil Florenz Sastre')
 with col4:
-    show_member("raymond.jpg", 'Raymond Gerard Tio')
+    show_member("assets/raymond.jpg", 'Raymond Gerard Tio')
