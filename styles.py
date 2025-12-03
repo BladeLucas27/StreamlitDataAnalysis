@@ -1,0 +1,28 @@
+import streamlit as st
+
+def css():
+    st.markdown("""
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            .stApp { background-color: #082e90; background-size: cover; }
+            h1, h2 { color: #93fff0 !important;}
+            h3 { color: #B8C7F4 !important;}
+            p, .stMarkdown, .stText, li, .stDataFrame { color: #FFC1D6 !important; }
+            /* Fix for dataframes to be readable */
+            .stDataFrame { background-color: #ffffff; color: #000000 !important; }
+            [data-testid="stSidebarContent"] {
+                background-color: #B8C7F4; /* Example: Dark Gray */
+                color: #082e90; /* Change the default text color for contrast */
+            }
+            
+            [data-testid="stSidebarNav"] span {
+                color: #082e90 !important;
+            }
+
+            [data-testid="stHeader"] {
+                background-color: #082e90; /* Use the same color as the sidebar */
+                opacity: 1; /* Ensure no unwanted transparency */
+            }
+            </style>
+        """, unsafe_allow_html=True)
