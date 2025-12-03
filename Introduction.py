@@ -11,12 +11,21 @@ st.set_page_config(
 css()
 
 # 2. Introduction Content
-st.header('Application of Data Analysis Techniques: Superstore Sales')
+st.header('Purchasing Patterns and Product Associations: Data Analysis')
 st.subheader('Introduction')
-st.write('This streamlit program is to demonstrate the use of the Apriori Data Analysis Technique on a chosen dataset depicting Supermarket Sales. This dataset includes the order and shipping dates of the sale, the customer\'s name, and details of the product.')
+st.write('In the competitive landscape of retail, understanding customer behavior and purchasing patterns is essential for driving business growth and operational efficiency. The ability to segment customers effectively and identify product relationships can significantly enhance inventory management, marketing strategies, and overall profitability. This analysis examines the Superstore Sales Dataset, which contains comprehensive transactional data from a retail superstore, including order information, product categories, customer segments, sales figures, and geographic details.')
 
-st.subheader('Apriori Data Analysis')
-st.write('The reason why Apriori was chosen over the other forms of Data Analysis is because it effectively uncovers hidden patterns and relationships within large transaction datasets, making it ideal for identifying product bundles and optimizing cross-selling strategies.')
+st.subheader('Purpose of Research')
+st.markdown('<h6 style="text-align: center; font-style: italic;">How can we identify distinct customer purchasing patterns and product associations to optimize inventory management and targeted marketing strategies?</h6>', unsafe_allow_html=True)
+st.write('This research question seeks to uncover hidden patterns in customer behavior and product relationships that can inform business decisions around product placement, promotional bundling, and customer segmentation.')
+
+st.subheader('About Dataset')
+st.write('The Superstore Sales Dataset from Kaggle contains transactional sales data from a retail superstore GitHub, typically including features such as order dates, product categories, customer segments, sales amounts, quantities, discounts, and geographic information. This dataset is commonly used for sales analysis and forecasting tasks.')
+# Add st.table here for dataset attributes
+
+st.subheader('Analysis Techniques')
+st.write('we employ two complementary data mining techniques: DBSCAN clustering and Apriori association rule mining.')
+# justify each techniques blahblah blah
 
 # 3. Team Members
 st.subheader('Team Members')
