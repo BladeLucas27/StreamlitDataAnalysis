@@ -96,7 +96,7 @@ basket_encoded = basket.applymap(lambda x: 1 if x >= 1 else 0)
 
 col_a, col_b = st.columns(2)
 with col_a:
-    min_support = st.slider('Min Support', 0.001, 0.01, 0.005, 0.001)
+    min_support = st.slider('Min Support', 0.001, 0.01, 0.005, 0.001, format="%.3f")
 with col_b:
     min_lift = st.slider('Min Lift', 1.0, 10.0, 1.2, 0.1)
 
