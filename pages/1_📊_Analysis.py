@@ -98,7 +98,7 @@ col_a, col_b = st.columns(2)
 with col_a:
     min_support = st.slider('Min Support', 0.001, 0.01, 0.005, 0.001, format="%.3f")
 with col_b:
-    min_lift = st.slider('Min Lift', 1.0, 10.0, 1.2, 0.1)
+    min_lift = st.slider('Min Lift', 1.0, 5.0, 1.9, 0.1)
 
 try:
     frequent_itemsets = apriori(basket_encoded, min_support=min_support, use_colnames=True)
