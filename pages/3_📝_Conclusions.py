@@ -1,7 +1,7 @@
 from styles import css
 import streamlit as st
 
-st.set_page_config(page_title="Conclusion", layout="wide")
+st.set_page_config(page_title="Conclusion", layout="wide", page_icon="📝")
 css()
 
 st.header("📝 Conclusion & Recommendations")

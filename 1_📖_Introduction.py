@@ -4,9 +4,10 @@ import os
 
 # 1. Page Config
 st.set_page_config(
-    page_title="CS365 - Final Project",
+    page_title="Introduction",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
+    page_icon="📖"
 )
 css()
 

@@ -10,7 +10,7 @@ from sklearn.decomposition import PCA
 from mlxtend.frequent_patterns import apriori, association_rules
 import plotly.express as px
 
-st.set_page_config(page_title="Dataset Analysis", layout="wide")
+st.set_page_config(page_title="Dataset Analysis", layout="wide", page_icon="📊")
 css()
 
 # --- DATA LOADING ---
